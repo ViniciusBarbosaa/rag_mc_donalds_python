@@ -1,0 +1,42 @@
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Logs e temporários
+*.log
+*.tmp
+*.swp
+
+# Configuração local
+*.ini
+*.cfg
+
+# Arquivos de IDE/Editor
+.vscode/
+.idea/
+*.iml
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Cache LangChain / Chroma
+chroma/
+chroma_db/
+vectorstore/
+
+# Dados do usuário
+cardapio.json
+
+# Variáveis de ambiente
+.env
